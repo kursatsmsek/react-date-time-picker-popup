@@ -10,7 +10,7 @@ function Time({
   setSelectedMinute,
   selectedHour,
   setSelectedHour,
-  minuteInterval,
+  minuteInterval = 5,
   disabledHours = [],
   disabledMinutes = [],
   BGColor = 'rgb(44, 76, 104)',

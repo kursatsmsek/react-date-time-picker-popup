@@ -1,0 +1,132 @@
+.timeContainer {
+  display: flex;
+  width: 100%;
+  padding: 5%;
+  justify-content: space-between;
+}
+
+.timeHours {
+  width: 47%;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.timeHours::-webkit-scrollbar {
+  display: none;
+}
+
+.hourDiv {
+  background: rgba(255, 255, 255, 0.041);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  margin-top: 5%;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.hourDiv:hover {
+  background: rgba(255, 255, 255, 0.199);
+  cursor: pointer;
+}
+
+.selectedHourDiv {
+  background: rgba(255, 255, 255, 0.199);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  margin-top: 5%;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  border: 1px solid white;
+}
+
+.selectedHourDiv:hover {
+  cursor:default;
+}
+
+.disabledHourDiv {
+  background: rgba(255, 255, 255, 0.041);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  margin-top: 5%;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff40;
+}
+
+.disabledHourDiv:hover {
+  cursor: not-allowed;
+}
+
+.timeMinutes {
+  display: grid;
+  align-items: center;
+  width: 47%;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.timeMinutes::-webkit-scrollbar {
+  display: none;
+}
+
+.minuteDiv {
+  background: rgba(255, 255, 255, 0.041);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  margin-top: 5%;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.minuteDiv:hover {
+  background: rgba(255, 255, 255, 0.199);
+  cursor: pointer;
+}
+
+.selectedMinuteDiv {
+  background: rgba(255, 255, 255, 0.199);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  margin-top: 5%;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  border: 1px solid white;
+}
+
+.selectedMinuteDiv:hover {
+  cursor:default;
+}
+
+.disabledMinuteDiv {
+  background: rgba(255, 255, 255, 0.041);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  margin-top: 5%;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff40;
+}
+
+.disabledMinuteDiv:hover {
+  cursor: not-allowed;
+}

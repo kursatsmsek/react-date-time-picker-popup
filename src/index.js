@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './styles.module.css'
-import Popup from './popup/Popup'
+import PopupComponent from './popup/PopupComponent'
 import Time from './time/Time'
 import Calendar from './calendar/Calendar'
 
@@ -8,18 +8,18 @@ export const ExampleComponent = ({ text }) => {
   return <div className={styles.test}>Example Component: {text}</div>
 }
 
-export const PopupComponent = ({
+export const Popup = ({
   visible,
   setVisible,
   BGColor = 'rgb(44, 76, 104)',
   children
 }) => {
-  return <Popup
+  return <PopupComponent
   visible={visible}
   setVisible={setVisible}
   BGColor={BGColor}>
   {children}
-  </Popup>
+  </PopupComponent>
 }
 
 export const TimeSelector = ({

@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react"
 import styles from './styles.module.css'
 
 
-function Popup(props) {
+function PopupComponent(props) {
 
   const useOutsideAlerter = (ref) => {
     useEffect(() => {
@@ -35,4 +35,4 @@ function Popup(props) {
   )
 }
 
-export default Popup;
+export default PopupComponent;

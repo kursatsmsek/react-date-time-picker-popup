@@ -31,6 +31,9 @@ const App = () => {
 
 export default App
 ```
+
+![](https://i.ibb.co/c668GQ7/Screen-Shot-2022-02-26-at-19-17-08.png)
+
 ### DatePicker
 
 |      props      |   type  |      default     | required |

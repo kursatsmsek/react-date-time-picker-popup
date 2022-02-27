@@ -1,6 +1,6 @@
 {
   "name": "react-date-time-picker-popup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Calendar, interval time picker and popup components for React",
   "author": "kursatsmsek",
   "license": "MIT",

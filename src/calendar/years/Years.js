@@ -53,8 +53,8 @@ function Years({
     <div className={styles.selectScreen}>
       <div className={styles.selectArea} key={Math.random()}>
         <div className={styles.selectableDiv} onClick={decreaseYears}>...</div>
-        <div className={styles.selectableDiv} value={years[0] + 2} onClick={onYearClick}>{years[0] - 2}</div>
-        <div className={styles.selectableDiv} value={years[0] + 1} onClick={onYearClick}>{years[0] - 1}</div>
+        <div className={styles.selectableDiv} value={years[0] - 2} onClick={onYearClick}>{years[0] - 2}</div>
+        <div className={styles.selectableDiv} value={years[0] - 1} onClick={onYearClick}>{years[0] - 1}</div>
       </div>
       {
         years.map((month, i) => {
@@ -68,8 +68,8 @@ function Years({
         })
       }
       <div className={styles.selectArea} key={Math.random()}>
-        <div className={styles.selectableDiv} value={years[years.length - 1] - 1} onClick={onYearClick}>{years[years.length - 1] + 1}</div>
-        <div className={styles.selectableDiv} value={years[years.length - 1] - 2} onClick={onYearClick}>{years[years.length - 1] + 2}</div>
+        <div className={styles.selectableDiv} value={years[years.length - 1] + 1} onClick={onYearClick}>{years[years.length - 1] + 1}</div>
+        <div className={styles.selectableDiv} value={years[years.length - 1] + 2} onClick={onYearClick}>{years[years.length - 1] + 2}</div>
         <div className={styles.selectableDiv} onClick={increaseYears}>...</div>
       </div>
     </div>
